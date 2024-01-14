@@ -55,7 +55,7 @@ img {
     text-align: center;
 }
 .banner .text{
-    width: 1000px;
+    max-width: 1000px;
     background-color: teal;
     margin: auto;
 }
