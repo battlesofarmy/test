@@ -1,0 +1,111 @@
+/* ----------======  Global Styles  ======---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #FF900E; 
+    --primary: #FFF4E7;
+    /* --title: 45px; */
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.title{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* ----------======  Navbar CSS styles  ======---------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    display: flex;
+    padding: 15px;
+}
+.navbar ul li a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ----------======  Banner CSS styles  ======---------- */
+.banner{
+    text-align: center;
+}
+.banner .text{
+    width: 1000px;
+    background-color: teal;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* ----------======  Header Section Desing  ======---------- */
+header{
+    background-color: #d1e0e0;
+}
+
+
+
+
+
+
+/* ----------======  Footer Section Design  ======---------- */
+footer{
+    background-color: #d1e0e0;
+    padding: 10px 0;
+}
+footer p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/* Remove it From here after Completing your job bro   -----------------------   */
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:(768) ) {
+    
+}
+@media screen and (max-width:(992) ) {
+    
+}
+@media screen and (max-width:(1200) ) {
+    
+}
