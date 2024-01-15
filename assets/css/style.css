@@ -55,12 +55,47 @@ img {
     text-align: center;
 }
 .banner .text{
-    max-width: 1000px;
-    background-color: teal;
+    max-width: 800px;
     margin: auto;
+    padding: 80px 0;
 }
-
-
+.banner img{
+    width: 70%;
+    padding-bottom: 40px;
+}
+.banner .btn{
+    background-color: var(--color);
+    padding: 16px 28px;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+}
+.banner .btn a{
+    color: white;
+}
+/* ----------======  Team Section Design CSS styles  ======---------- */
+.team .container{
+    display: flex;
+    flex: 1;
+}
+.team .img-grid{
+    display: grid;
+    grid-template-areas : 'a b'
+                          'c d';
+    grid-gap: 20px;
+}
+.team .item1{
+    grid-area: a;
+}
+.team .item2{
+    grid-area: b;
+}
+.team .item3{
+    grid-area: c;
+}
+.team .item4{
+    grid-area: d;
+}
 
 
 
@@ -70,7 +105,7 @@ img {
 
 /* ----------======  Header Section Desing  ======---------- */
 header{
-    background-color: #d1e0e0;
+    background-color: var(--color);
 }
 
 
@@ -98,6 +133,15 @@ footer p{
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .banner .text{
+        padding: 40px;
+    }
+    .banner img{
+        padding-top: 20px;
     }
 }
 @media screen and (max-width:(768) ) {
